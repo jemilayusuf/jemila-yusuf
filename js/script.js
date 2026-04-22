@@ -1,46 +1,49 @@
-/**
- * CHALLENGE - CREATE GRADE CHECKER FUNCTION
- * 
- * The function should request for a score,and then give the corresponding grade
- * 
- * Grades
- * A - 70 and above
- * B - 60 to 69
- * C - 50 to 59
- * D - 40 to 49
- * F - 0  to 39
- */
+//console.log("Hello world")
+//Loops - Repeated action
 
-function checker() {
-   // 1. Get score from user
-    let score = prompt("please enter a score between 0 and 100")
-    score = parseFloat(score)
+// WHILE loop
+//let number = 1
+//while (number <= 15) {
+  //console.log(number)
+  //number = number + 1 }
 
-   // 2. Check if score entered is valid
-   let isValid;
-   if (score >= 0 && score <= 100) {
-       isValid = true
-   } else {
-    isValid = false
-   }
-  // 3. Grade based on score
-  if (isValid) {
-    if (score >= 70) {
-     alert("Congratulations, you got an A")    
-    } else if (score >= 60 && score < 70){
-        alert("You got a B. Welldone")
-    } else if (score >= 50 && score < 60){
-        alert("You got a C")
-    } else if (score >= 40 && score < 50){
-        alert("You escaped - D")
-    } else {
-        alert("You don fail o, try again next term")
-    }
 
-   
-  } else {
-    alert("You entered an invalid number")
-  }
-}
 
-checker()
+  
+// let count = 10
+// while (count >= 1) {
+//   console.log(count)
+//   count = count - 1
+//   count --
+// // }
+
+// // Do WHILE
+// let count = 0
+// do {
+//   console.log(count)
+//   count += 2
+// } while (count <= 20)
+
+//   // FOR loop
+//   for (let i = 1; i <=50; i++) {
+//     console.log(i)
+//   }
+
+
+
+
+// ARRAYS
+const myArray = ["Asiya",4, "Jemila",true, "Gift", "Martha", "Deborah"]
+// console.log(myArray)
+// console.log(myArray[5])
+
+// myArray.pop()
+// console.log(myArray)
+
+// myArray.unshift("Emmanuel")
+// console.log(myArray)
+
+// myArray.shift()
+// console.log(myArray)
+
+console.log(myArray.indexOf(true))
