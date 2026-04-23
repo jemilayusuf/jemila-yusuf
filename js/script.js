@@ -1,49 +1,40 @@
-//console.log("Hello world")
-//Loops - Repeated action
+// const names = ["Asiya","Jemila","Martha","Deborah",["Oxblood","blue","pink","army-green",[1,2,8,0,true]]]
+// console.log(names)
+// console.log(names[0])
+// console.log(names[4][4][3])
+// const letters = ['w','y','s','a']
+// console.log(letters)
+// console.log(letters.length)
+// console.log(letters.join())
+// console.log(typeof letters.join(""))
+// const name = "constantine"
+// // console.log(name.split(""))
+// let sentence = "Jemila is a good girl"
+// console.log(sentence.split())
+// console.log(sentence.split(""))
+// console.log(sentence.split(" "))
 
-// WHILE loop
-//let number = 1
-//while (number <= 15) {
-  //console.log(number)
-  //number = number + 1 }
+// COMBINING ARRAYS AND LOOPS
+// Challenge 1- print an array of numbers from 1 to 50
+//  let numbers = []
+//  for(let i = 1; i <= 50; i++) {
+//    numbers.push(i)
+//  } 
+//  console.log(numbers)
 
-
-
-  
-// let count = 10
-// while (count >= 1) {
-//   console.log(count)
-//   count = count - 1
-//   count --
-// // }
-
-// // Do WHILE
-// let count = 0
+// let counter = 1
 // do {
-//   console.log(count)
-//   count += 2
-// } while (count <= 20)
+//   numbers.push(counter)
+//   counter += 1
+// } while (counter <= 50)
 
-//   // FOR loop
-//   for (let i = 1; i <=50; i++) {
-//     console.log(i)
-//   }
+// let counter = 1
+// while (counter <= 50) {SVGAnimatedNumberList.push(counter)counter ++}
 
 
+let numbers = []
+for(let i = 1; i <= 50; i++) {
+  numbers.unshift(i)
+}
+console.log(numbers)
 
-
-// ARRAYS
-const myArray = ["Asiya",4, "Jemila",true, "Gift", "Martha", "Deborah"]
-// console.log(myArray)
-// console.log(myArray[5])
-
-// myArray.pop()
-// console.log(myArray)
-
-// myArray.unshift("Emmanuel")
-// console.log(myArray)
-
-// myArray.shift()
-// console.log(myArray)
-
-console.log(myArray.indexOf(true))
