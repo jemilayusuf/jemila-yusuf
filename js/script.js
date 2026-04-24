@@ -1,40 +1,41 @@
-// const names = ["Asiya","Jemila","Martha","Deborah",["Oxblood","blue","pink","army-green",[1,2,8,0,true]]]
-// console.log(names)
-// console.log(names[0])
-// console.log(names[4][4][3])
-// const letters = ['w','y','s','a']
-// console.log(letters)
-// console.log(letters.length)
-// console.log(letters.join())
-// console.log(typeof letters.join(""))
-// const name = "constantine"
-// // console.log(name.split(""))
-// let sentence = "Jemila is a good girl"
-// console.log(sentence.split())
-// console.log(sentence.split(""))
-// console.log(sentence.split(" "))
+//Print an array of numbers bbetween 0 and 100
+//If a number is divisible by 3, Print Fizz
+//If a number is divisible by 5, print Buzz
+//If a number is divisible by both 3 and 5,print FizzBuzz
 
-// COMBINING ARRAYS AND LOOPS
-// Challenge 1- print an array of numbers from 1 to 50
-//  let numbers = []
-//  for(let i = 1; i <= 50; i++) {
-//    numbers.push(i)
-//  } 
-//  console.log(numbers)
+// const numbers = []
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     numbers.push("Fizz")
+//   }else if (i % 5 === 0) {
+//     numbers.push("Buzz")
+//   }else
+// }
 
-// let counter = 1
-// do {
-//   numbers.push(counter)
-//   counter += 1
-// } while (counter <= 50)
+// const student = {
+//   name: "Jemila",
+//   hobby: "eating",
+//   age: 10,
+//   isFemale: true,
+//   courses: ["Javascript", "Git", "HTML","CSS"],
+//   action: function() {
+//     console.log(`${this.name} enjoys ${this.hobby}`)
+//   }
+// }
+// console.log(student.name)
+// console.log(student["age"])
+// student.action()
 
-// let counter = 1
-// while (counter <= 50) {SVGAnimatedNumberList.push(counter)counter ++}
+let number = 25.889373
+console.log(number)
+console.log(typeof number)
+console.log(number.toFixed(2))
+console.log(Math.sqrt(81))
 
 
-let numbers = []
-for(let i = 1; i <= 50; i++) {
-  numbers.unshift(i)
-}
-console.log(numbers)
 
+
+
+
+
+                                        
